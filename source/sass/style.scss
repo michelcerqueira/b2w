@@ -4,6 +4,9 @@
 body{
   font-family: $fontePrincipal !important;
 }
+.espacamentoTopo{
+margin-top: $espacamentoTopo;
+}
 
 .resetePadding{
   padding: $resetPadding !important;
@@ -58,7 +61,7 @@ body{
   padding-left: $recuoDoBloco;
   padding-top: 10px;
   width: 100%;
-
+ font-size:16px;
 }
 .bg-direito {
   article:nth-child(0) {
@@ -81,7 +84,7 @@ body{
   margin-bottom: 0px;
 }
 .progress-bar {
-  background-color: #a6a5a5 !important;
+  background-color: $cinzaGrafico !important;
 }
 .descCarregamento {
   padding-top: 0px;
@@ -158,11 +161,20 @@ body{
   }
   .containerH2{
     padding-left: 0px;
+
   }
   p.textoDescricao.ng-binding:nth-child(2) {
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-size: 11px;
+  }.progress-bar {
+     background-color: $corPrincipal !important;
+   }.progress{
+           background-color: $cinzaGrafico !important;
+         }
+  .descCarregamento p.textoDescricao{
+
+    text-align: justify;
   }
 
 }

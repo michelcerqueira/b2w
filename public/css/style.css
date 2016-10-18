@@ -2,6 +2,9 @@
 body {
   font-family: "Open Sans" !important; }
 
+.espacamentoTopo {
+  margin-top: 40px; }
+
 .resetePadding {
   padding: 0px 0px 0px 0px !important; }
 
@@ -57,7 +60,8 @@ body {
   text-align: justify;
   padding-left: 10px;
   padding-top: 10px;
-  width: 100%; }
+  width: 100%;
+  font-size: 16px; }
 
 .bg-direito article:nth-child(0) {
   margin-top: 50px; }
@@ -141,3 +145,12 @@ body {
   padding-bottom: 0px;
   margin-bottom: 0px;
   font-size: 11px; }
+
+.bg-direito .progress-bar {
+  background-color: #49c5b1 !important; }
+
+.bg-direito .progress {
+  background-color: #a6a5a5 !important; }
+
+.bg-direito .descCarregamento p.textoDescricao {
+  text-align: justify; }
